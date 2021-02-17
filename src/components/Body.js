@@ -7,7 +7,8 @@ export default function Body(props) {
 
     return (
         <div className='container'>
-            <img src={nasaData.url} alt="NASA photo of the day"></img>           
+            <img src={nasaData.url} alt="NASA photo of the day"></img>
+            <p>{nasaData.explanation}</p>           
         </div>
     )
 }
